@@ -17,3 +17,13 @@ function ShowStandings(country) {
 
     document.getElementById(country).style.display = 'block';
 }
+
+function ShowFixtures(country) {
+    let element = document.getElementsByClassName('fixturesCountry');
+
+    for (let counter = 0; counter < element.length; counter++) {
+        element[counter].style.display = 'none';
+    }
+
+    document.getElementById(country).style.display = 'block';
+}
