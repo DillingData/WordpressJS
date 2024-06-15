@@ -2,7 +2,7 @@ function standings() {
     document.getElementById('standings').style.display = 'block';
     document.getElementById('fixtures').style.display = 'none';
     document.getElementById('standingsClicked').setAttribute('style', 'background-color:#CBD5E0;')
-    document.getElementById('standingsClicked').setAttribute('style', 'background-color:#E2E8F00;')
+    document.getElementById('fixturesClicked').setAttribute('style', 'background-color:#E2E8F00;')
     //document.getElementById('standingsClicked').style.background = '#CBD5E0';
     //document.getElementById('fixturesClicked').style.background = '#E2E8F00';
 }
@@ -12,7 +12,7 @@ function fixtures() {
     document.getElementById('fixtures').style.display = 'block';
     //document.getElementById('standingsClicked').style.background = '#E2E8F00';
     //document.getElementById('fixturesClicked').style.background = '#CBD5E0';
-    document.getElementById('standingsClicked').setAttribute('style', 'background-color:#E2E8F00;')
+    document.getElementById('fixturesClicked').setAttribute('style', 'background-color:#E2E8F00;')
     document.getElementById('standingsClicked').setAttribute('style', 'background-color:#CBD5E0;')
 }
 
